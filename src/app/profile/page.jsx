@@ -13,7 +13,7 @@ export default async function Profile() {
   // Render the profile page for authenticated users
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold">Welcome to your profile, {user.first_name}!</h1>
+      <h1 className="text-2xl font-bold">Welcome to your profile {user.first_name}!</h1>
       <p>Your email: {user.email}</p>
     </div>
   );
